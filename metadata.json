@@ -1,0 +1,7 @@
+{
+  "name": "AAVYA — AI-Assisted Victim Well-being & Assessment",
+  "description": "Comprehensive AI-Assisted Victim Well-being & Assessment System integrated with NHAA (14566), featuring real-time risk prediction, multilingual multichannel victim interaction (Chatbot, IVRS, SMS, Mobile), counsellor interventions, and district nodal administration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
