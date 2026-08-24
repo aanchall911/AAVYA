@@ -13,7 +13,7 @@ export const AssignCounsellorModal: React.FC = () => {
     showToast
   } = useApp();
 
-  const [selectedCounsellorId, setSelectedCounsellorId] = useState(counsellors[0].id);
+  const [selectedCounsellorId, setSelectedCounsellorId] = useState(counsellors?.[0]?.id || '');
   const [interventionTitle, setInterventionTitle] = useState('Immediate Psychological First Aid & Trauma Support');
   const [priority, setPriority] = useState<'High Priority' | 'Medium Priority'>('High Priority');
   const [category, setCategory] = useState<'Counselling' | 'Protection' | 'Legal' | 'Financial'>('Counselling');
